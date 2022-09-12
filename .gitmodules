@@ -1,0 +1,6 @@
+[submodule "conf/zsh"]
+	path = conf/zsh
+	url = github.com:anya-tokugawa/.zsh
+[submodule "conf/vimrc.d"]
+	path = conf/vimrc.d
+	url = github.com:anya-tokugawa/.vimrc.d
