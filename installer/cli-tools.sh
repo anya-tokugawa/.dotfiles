@@ -6,4 +6,8 @@ zsh
 tmux
 nmap
 htop
-
+dialog
+vim
+curl
+golang-go
+PKGS

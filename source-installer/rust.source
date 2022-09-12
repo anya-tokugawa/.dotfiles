@@ -1,0 +1,2 @@
+#!/bin/bash -eux
+curl https://sh.rustup.rs -sSf | sh
