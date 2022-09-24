@@ -13,15 +13,15 @@
   * {
     font-family: "Roboto", sans-serif !important;
   }
-
+/*
   body {
     background-color: #061115 !important;
   }
-
+*/
   #tabsToggle {
    /\display: none;
   }
-
+/*
   html|button:enabled:hover,
   html|select:not([size], [multiple]):enabled:hover,
   html|input[type="color"]:hover,
@@ -39,16 +39,16 @@
     background-color: #6791c9 !important;
   }
 }
-
+*/
 @-moz-document url("about:newtab"), url("about:home") {
   * {
     font-family: "Roboto", sans-serif !important;
   }
-
+/*
   body {
-    background-color: #061115 !important;
+   background-color: #061114 !important;
   }
-
+*/
   .SnippetBaseContainer {
     display: none !important;
   }
