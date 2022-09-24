@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 while read -r package;do
- sudo apt install $package
+ sudo apt-get install -y $package
 done << PKGS
 zsh
 tmux
@@ -10,4 +10,10 @@ dialog
 vim
 curl
 golang-go
+netcat
+zip
+unzip
+p7zip-full
+iftop
+vlc
 PKGS
