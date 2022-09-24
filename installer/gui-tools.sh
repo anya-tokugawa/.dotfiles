@@ -1,4 +1,4 @@
-#!/bin/bash -eu -o posix
+#!/bin/zsh -eu
 # experiments: in dialog tui, arrows key not working becuz dash.
 ## https://stackoverflow.com/questions/21384040/why-does-the-terminal-show-a-b-c-d-when-pressing-the-arrow-k
 while read -r package;do

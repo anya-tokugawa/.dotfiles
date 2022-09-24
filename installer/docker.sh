@@ -1,4 +1,4 @@
-sudo apt-get remove docker docker-engine docker.io containerd runc
+#sudo apt-get remove docker docker-engine docker.io containerd runc
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 
 
