@@ -3,7 +3,7 @@
 sudo add-apt-repository ppa:mozillateam/ppa
 
 f="/etc/apt/preferences.d/mozilla-firefox"
-echo '\nPackage: *\nPin: release o=LP-PPA-mozillateam\nPin-Priority: 1001\n' | sudo tee "$f"
+echo -e '\nPackage: *\nPin: release o=LP-PPA-mozillateam\nPin-Priority: 1001\n' | sudo tee "$f"
 
 # for ubuntu default.
 if (sudo snap list | grep -q "firefox");then
@@ -11,5 +11,5 @@ if (sudo snap list | grep -q "firefox");then
 fi
 
 sudo apt-get update
-sudo apt-get install firefox
+sudo apt-get install -y firefox
 
